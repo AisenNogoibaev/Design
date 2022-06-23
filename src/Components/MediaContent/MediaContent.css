@@ -1,0 +1,41 @@
+.des {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	color: aliceblue;
+	padding: 89px 45px 58px 45px;
+	background: #28293e;
+}
+
+.des > h1 {
+	font-weight: 400;
+	text-decoration: underline;
+	font-size: 72px;
+	margin-bottom: 34px;
+}
+
+.des-text {
+	width: 682px;
+	height: 66px;
+	color: #707070;
+	line-height: 32px;
+	font-size: 16px;
+}
+
+.mediaContent-bg {
+	background-color: #fdf0e9;
+	padding-bottom: 120px;
+}
+
+@media screen and (max-width: 1040px) {
+	.des-text {
+		width: 368px;
+		padding: -5px 23px 79px 23px;
+	}
+
+	.des > h1 {
+		font-size: 40px;
+	}
+}

@@ -1,0 +1,13 @@
+.load-more-button {
+	width: 170px;
+	height: 48px;
+	background: #ffffff;
+	color: #391400;
+	box-shadow: grey 0.5px 1px 0.5px 1px;
+	border: none;
+	font-size: 14px;
+	border-radius: 6px;
+	box-shadow: #707070;
+	text-transform: uppercase;
+	cursor: pointer;
+}
